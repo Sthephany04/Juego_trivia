@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Indie+Flower&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="conten">
+    <div class="inicio">
+      <h1>Bienvenido a Triviatoon</h1>
+    </div>
+
+    <div class="imagen">
+      <img src="img/ironsuper.png" alt="superheroes">
+    </div>
+
+    <div id="pantallaInicial" class="inicio">   
+      <p class="inicio-text">Ingresa tu nombre</p>
+      <input class="input" type="text" placeholder="Ingresa tu nombre..." id="nombrePersona"></input> <br><br>
+      <button class="button" id="iniciar">Vamos a Jugar</button>
+      <button class="button" onclick="window.close()" id="salir" >Salir</button>
+    </div>
+
+    <div id="pantalla1">
+      <p id="mensaje"></p>  
+      <button class="button" id="marvel">Personajes de Marvel</button>
+      <button class="button" id="dc" >Personajes de DC</button>
+    </div>
+        
+    <div id="pantalla2">
+      <p id="mensajePregunta1"></p>
+        <input name="pregunta1" type="radio" value="1"><span id="respuesta11"></span></input><br>
+        <input name="pregunta1" type="radio" value="2"><span id="respuesta12"></span></input><br>
+        <input name="pregunta1" type="radio" value="3"><span id="respuesta13"></span></input><br>
+        <input name="pregunta1" type="radio" value="4"><span id="respuesta14"></span></input><br>       
+    </div>
+
+    <div id="pantalla3">
+      <p id="mensajePregunta2"></p>
+         <input name="pregunta2" type="radio" value="1"><span id="respuesta21"></span></input><br>
+         <input name="pregunta2" type="radio" value="2"><span id="respuesta22"></span></input><br>
+         <input name="pregunta2" type="radio" value="3"><span id="respuesta23"></span></input><br>
+         <input name="pregunta2" type="radio" value="4"><span id="respuesta24"></span></input><br>
+    </div>
+
+    <div id="pantalla4">
+      <p id="mensajePregunta3"></p>
+         <input name="pregunta3" type="radio" value="1"><span id="respuesta31"></span></input><br>
+         <input name="pregunta3" type="radio" value="2"><span id="respuesta32"></span></input><br>
+         <input name="pregunta3" type="radio" value="3"><span id="respuesta33"></span></input><br>
+         <input name="pregunta3" type="radio" value="4"><span id="respuesta34"></span></input><br>
+    </div>
+
+    <div id="pantallaResultados">
+      <h2>Super!! Terminaste la trivia!</h2>
+      <p>Cada pregunta vale 100 puntos!!</p>
+      <p id="resultadoFinal"></p>
+      <button class="button" id="volverAJugar">Volver a Jugar</button>
+      <button class="button" onclick="window.close()" id="salir2" >Salir</button>
+      </div>
+      </div>
+    <script src="trivia.js"></script>
+  </body>
+</html>
+

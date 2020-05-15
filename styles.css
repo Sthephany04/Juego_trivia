@@ -1,0 +1,85 @@
+.hide {
+  display: none;
+}
+#pantallaInicial{
+  display: block;
+}
+#pantalla1{
+  display: none;
+}
+#pantalla2{
+  display: none;
+}
+#pantalla3{
+  display: none;
+}
+#pantalla4{
+  display: none;
+}
+#pantallaResultados{
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;  
+  font-family: 'Indie Flower', cursive;
+  color: #fff;
+  background-image: url(img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+p {
+  font-size: 23px;
+}
+
+.imagen {
+  height: 270px;
+}
+
+.input{
+  background-color: rgba(109, 12, 2, 0.8);
+  border-radius: 15px;
+	border-left: 0px;
+	border-top: 0px;
+	border-right: 0px;
+  border-bottom: 2px solid #FFF;
+  color: #fff;
+	font-size: 17px;
+	padding: 0px 20px;
+	outline: none;
+	height: 50px;
+}
+
+.button{
+	background-color: rgba(255, 255, 255, 0.5);
+	border: none;
+	border-radius: 25px;
+	color: #3B0300;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+  height: 40px;
+  width: 200px;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
