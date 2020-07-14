@@ -1,0 +1,24 @@
+{
+  "name": "trivia",
+  "version": "1.0.0",
+  "description": "Juego trivia",
+  "main": "trivia.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sthephany04/Juego_trivia.git"
+  },
+  "keywords": [
+    "Javascript",
+    "css",
+    "html"
+  ],
+  "author": "Sthephany Granados",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sthephany04/Juego_trivia/issues"
+  },
+  "homepage": "https://github.com/Sthephany04/Juego_trivia#readme"
+}
