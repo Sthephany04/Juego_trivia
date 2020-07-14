@@ -52,6 +52,12 @@ var respuesta34 = document.getElementById('respuesta34');
 
 var resultadoFinal = document.getElementById('resultadoFinal')
 
+function iniciarJuego() {  
+  pantallaInicial.style.display="none";
+  mensaje.innerHTML="Hola " + nombre.value + " vamos a jugar, elige una categoria";
+  pantalla1.style.display="block";
+}
+
 //Se toma el elemento de html por el nombre "gelElementsByName" y se ejecuta un evento
 for (var i = 0; i < pregunta1.length; i++){
   pregunta1[i].addEventListener('click', function(){
@@ -84,12 +90,6 @@ for(var i = 0; i < pregunta3.length; i++){
     }
     console.log(resultadoUsuario[2]);  
     resultados()}); 
-}
-
-function iniciarJuego() {  
-  pantallaInicial.style.display="none";
-  mensaje.innerHTML="Hola " + nombre.value + " vamos a jugar, elige una categoria";
-  pantalla1.style.display="block";
 }
 
 //funcion con preguntas, respuestas y resultados marvel
