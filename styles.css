@@ -21,18 +21,31 @@
 }
 
 body {
-  margin: 0;
+  margin: 5% 30%;
   padding: 0;
   text-align: center;  
   font-family: 'Indie Flower', cursive;
-  color: #fff;
-  background-image: url(img/fondo.jpg);
+  color: #3f3434;
+  background-image: url(img/DC-Comics-Wallpapers.jpg);
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
+.conten {
+  border: 2px solid #3B0300;
+  box-shadow: 13px 17px 20px -5px rgba(0,0,0,0.73);
+  border-radius: 5%;
+  padding: 10% 0;  
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #3B0300;
+}
+
 p {
   font-size: 23px;
+  font-weight: bold;
 }
 
 .imagen {
@@ -54,8 +67,8 @@ p {
 }
 
 .button{
-	background-color: rgba(255, 255, 255, 0.5);
-	border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #3B0300;	
 	border-radius: 25px;
 	color: #3B0300;
 	cursor: pointer;
@@ -66,6 +79,11 @@ p {
 	letter-spacing: 1px;
 	margin: 10px 0px;
 	outline: none;
+}
+
+.button:hover {
+  background-color: #3B0300;
+  color: #FFF; 
 }
 
 
